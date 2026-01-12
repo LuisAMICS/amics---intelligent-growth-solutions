@@ -7,6 +7,9 @@ import SystemsPage from './pages/SystemsPage';
 
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import TermsPage from './pages/TermsPage';
+import ServicesPage from './pages/ServicesPage';
+import SecurityPage from './pages/SecurityPage';
 import ChatWidget from './components/ChatWidget';
 
 const ScrollToTop = () => {
@@ -29,6 +32,10 @@ const App: React.FC = () => {
 
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+
+          <Route path="/terms" element={<TermsPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/security" element={<SecurityPage />} />
         </Routes>
       </Layout>
       <ChatWidget />

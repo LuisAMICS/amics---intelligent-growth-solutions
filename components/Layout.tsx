@@ -73,9 +73,9 @@ const Footer = () => (
             </div>
             <p className="text-text-muted text-sm">© 2024 AMICS Intelligent Growth Solutions. All rights reserved.</p>
             <div className="flex gap-6">
-                <a href="#" className="text-text-muted hover:text-white transition-colors">Privacy</a>
-                <a href="#" className="text-text-muted hover:text-white transition-colors">Terms</a>
-                <a href="#" className="text-text-muted hover:text-white transition-colors">Security</a>
+                <Link to="/terms" className="text-text-muted hover:text-white transition-colors">Terms</Link>
+                <Link to="/services" className="text-text-muted hover:text-white transition-colors">Services</Link>
+                <Link to="/security" className="text-text-muted hover:text-white transition-colors">Security</Link>
             </div>
         </div>
     </footer>
